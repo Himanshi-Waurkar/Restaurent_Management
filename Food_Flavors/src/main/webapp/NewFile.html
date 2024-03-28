@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Flavors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&family=Overpass:wght@300&family=Righteous&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#"><i class='bx bx-restaurant' ></i> Food <span>Flavor</span></a>
+
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="bar">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-cart-alt'></i></a>
+            <div class="bx bx-menu" id="menu-icon" onclick="toggleMenu()"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="full">
+            <div class="left">
+                <h1>Let's <span id="st">Celebrate </span> <span id="nd">Flavors</span> <br> Of  <span id="rd"> Food</span></h1>
+                <div class="btn">
+                <a href="Order.jsp" class="all"><button>Order Now <i class='bx bxs-right-arrow' style='color:#ffffff'></i></button></a>
+           
+                </div>
+            </div>
+            <div class="right">
+                <img src="./image/home.png" alt="bg-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="con1">
+            <img src="./image/con1.png" alt="">
+            <h3>11 am - 9 pm</h3>
+            <h5>Working Hours</h5>
+        </div>
+        <div class="con2">
+            <img src="./image/con2.png" alt="">
+            <h3>Kalyani - 741235</h3>
+            <h5>Get Directions</h5>
+        </div>
+        <div class="con3">
+            <img src="./image/con3.png" alt="">
+            <h3>+ (113) 234 - 4123</h3>
+            <h5>Call us Now</h5>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="abt-img">
+            <img src="./image/about.png" alt="">
+        </div>
+        <div class="abt-text">
+        <h2>Living <span>Well</span><br> Begins with <span>Eating</span> Well.</h2>
+        <p>Welcome to "FOOD-FLAVORS" a culinary haven where flavors dance and appetites rejoice. Situatedin the heart of the city, this restaurant offers a delightful dining experience with a touch ofcreativity. Step into a vibrant and modern space, adorned with local art, setting the stage formemorable gatherings. Our talented chefs curate an eclectic menu, celebrating the finestingredients from nearby farms and international inspirations. Savor mouthwatering steaks,delectable vegetarian delights, and indulgent desserts, each dish a work of art. Impeccable service ensures every guest feels welcomed and cherished. Embrace the joy of eating at "Food-Flavors" where taste takes center stage.</p>
+        </div>
+    </section>
+
+
+    <section class="food" id="food">
+        <div class="fd1">
+            <h2>Our Food</h2>
+            <h4>Let's Explore our Best Dishes</h4>
+        </div>
+        <div class="fd2">
+            <div class="f1">
+                <img src="image/food1.png" alt="Biryani">
+                <h4>Chicken Dum Biryani</h4>
+                <h5>250 /-</h5>
+            </div>
+            <div class="f2">
+                <img src="image/food2.png" alt="Paneer">
+                <h4>Shahi Paneer</h4>
+                <h5>140 /-</h5>
+            </div>
+            <div class="f3">
+                <img src="image/food3.png" alt="Chicken">
+                <h4>Crusted Chicken</h4>
+                <h5>210 /-</h5>
+            </div>
+            <div class="f4">
+                <img src="./image/food4.png" alt="Samosa">
+                <h4>Veg Samosa</h4>
+                <h5>80 /-</h5>
+            </div>
+        </div>
+        <div class="all">
+        <button style="color:White; background-color:Orange">
+            <a href="All_product.html" target="_blank"> All Products <i class='bx bxs-right-arrow' style='color:#ffffff'></i></a>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <div class="rev-top">
+            <h2>Reviews</h2>
+            <h4>Our Customers</h4>
+        </div>
+        <div class="cust">
+            <div>
+                <img src="./image/rev1.jpg" alt="">
+                <h4>Karan Shahu (<span>5<i class='bx bxs-star'></i></span>)</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, tempore!</p>
+            </div>
+            <div>
+                <img src="./image/rev2.jpg" alt="">
+                <h4> Sonakshi Sinha(<span>4<i class='bx bxs-star'></i></span>)</h4>
+                <p>Similique molestiae repellat culpa fuga blanditiis sequi distinctio perspiciatis!</p>
+            </div>
+            <div>
+                <img src="./image/rev3.jpg" alt="">
+                <h4>Jay Rathod (<span>4.5<i class='bx bxs-star'></i></span>)</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laborum.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit" method="post">
+            <p>Name: <br> <input type="text" name="name" placeholder="Enter your Name"></p>
+            <p>Email: <br> <input type="email" name="email" id="email" placeholder="yourname@gmail.com"></p>
+            <p>Subject: <br> <select name="subject" id="subject">
+                <option value="">Choose your Subject</option>
+                <option value="order">Order Issue</option>
+                <option value="refund">Money not refunded</option>
+                <option value="delivery">Delivery not attepmted</option>
+                <option value="other">Other</option>
+                </select>
+            </p>
+            <p>Massage: <br> <textarea name="message" id="message" placeholder="Your Message to Us"></textarea></p>
+            <p><input type="submit" value="Send"></p>
+        </form>
+    </section>
+
+    <section>
+        <div class="down">
+            <img src="./image/f1.png" alt="">
+            <img src="./image/f2.png" alt="">
+        </div>
+    </section>
+
+    <hr>
+
+    <footer class="foot">
+        <h2>Follow Us On</h2>
+        <div class="social">
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="ft">
+            <ul>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">License</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <a href="#">All rights Reserved &copy; Let's Eat 2023</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

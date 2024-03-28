@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+}
+
+/* Header and Navbar */
+header{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo i{
+    color: orange;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li a{
+    color: white;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header ul li a:hover{
+    color: orange;
+    transition: all .5s;
+}
+
+header .bar{
+    font-size: 30px;
+}
+
+header .bar a{
+    color: white;
+    margin: 0px 10px;
+}
+
+header .bar a:hover{
+    color: orange;
+    transition: .5s;
+}
+
+.bar div{
+    margin: 0px 10px;
+}
+
+.bar div:hover{
+    color: orange;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#menu-icon{
+    display: none;
+}
+
+/* Section Home */
+.full{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.left h1{
+    font-family: cursive;
+    font-size: 4vw;
+    margin-bottom: 20px;
+}
+
+#st{
+    color: aqua;
+}
+#nd{
+    color: orange;
+}
+#rd{
+    color: crimson;
+}
+
+.btn button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 110px;
+    margin: 0px 20px;
+}
+.btn button:hover{
+    background-color: orangered;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.right{
+    width: 50%;
+}
+
+.right img{
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+}
+
+/* Section Contact Details */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.container div{
+    background-color: rgba(128, 128, 128, 0.250);
+    width: 20%;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.container img{
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.container h3{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container h5{
+    color: grey;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container h5:hover{
+    color: rgba(255, 255, 255, 0.600);
+    transition: all .5s;
+}
+
+.con1, .con2, .con3{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section about */
+.about{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .abt-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.about .abt-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-img img{
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.abt-text h2{
+    font-size: 30px;
+    font-family: Roboto;
+    padding: 20px 0px;
+}
+
+.abt-text h2 span{
+    color: orange;
+}
+
+.abt-text p{
+    font-family: Nunito;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+
+.abt-text button{
+    background-color:  orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.abt-text button:hover{
+    background-color: orangered;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+/* Section Food */
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 50px 0px;
+}
+
+.fd1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fd1 h2{
+    color: orange;
+    padding-bottom: 10px;
+    font-family: overpass;
+}
+
+.fd1 h4{
+    padding-bottom: 10px;
+    font-family: overpass;
+}
+
+.fd2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+.fd2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.250);
+}
+
+.fd2 div img{
+    width: 90%;
+}
+.fd2 div h4{
+    font-family: Ubuntu;
+}
+.fd2 div h5{
+    font-family: Ubuntu;
+    color: orange;
+    padding: 5px 0px;
+}
+
+.all button{
+    background-color:midnightblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+.all button:hover{
+    background-color: orangered;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+/* Section Reviews */
+
+.review{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 80px 0px;
+}
+.review .cust{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cust div{
+    width: 25%;
+    background-color: rgba(112, 128, 144, 0.300);
+    border-radius: 10px;
+    padding: 10px;
+}
+.cust div img{
+    width: 25%;
+    border-radius: 5px;
+}
+.cust h4{
+    font-family: Noto Sans;
+    color: rgb(255, 121, 76);
+}
+.cust span{
+    color: slateblue;
+}
+.cust p{
+    font-family: Nunito;
+}
+
+.review .rev-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.rev-top h2{
+    color: orange;
+    padding-bottom: 10px;
+    font-family: overpass;
+}
+.rev-top h4{
+    font-family: overpass;
+}
+
+/* Contact us form */
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.contact h2{
+    color: orange;
+    padding-bottom: 10px;
+    font-family: overpass;
+}
+
+form{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form p{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#subject{
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+}
+#message{
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background-color:midnightblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+input[type="submit"]:hover{
+    background-color: orangered;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+/* Playstore and Appstore */
+
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 40px 0px;
+}
+.down img{
+    width: 130px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+/* Section Footer */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot h2{
+    font-family: Nunito;
+    color: orange;
+    padding: 10px;
+}
+
+.social a{
+    font-size: 40px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.social a i:hover{
+    color: lightseagreen;
+    transition: all .3s;
+}
+
+.ft ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ft ul li{
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ft ul li a{
+    color: white;
+}
+.ft ul li a:hover{
+    color:lightsalmon;
+    transition: all .3s;
+}
+
+.copy a{
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.copy a:hover{
+    color:lightsalmon;
+    transition: all .3s;
+}

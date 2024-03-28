@@ -1,0 +1,50 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:  rgba(0, 0, 0, 0.900);
+            color: black;
+            margin: 20px;
+        }
+
+        h1 {
+            color: orange;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 70%;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #8000ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orangered;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+
+        .total {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+         
